@@ -4,6 +4,7 @@
   "description": "Universal header for edX applications.",
   "main": "dist/index.js",
   "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -18,10 +19,16 @@
     "webpack": "^3.10.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "@storybook/react": "^3.3.11",
     "@storybook/addon-actions": "^3.3.11",
     "@storybook/addon-links": "^3.3.11",
-    "@storybook/addons": "^3.3.11"
+    "@storybook/addons": "^3.3.11",
+    "@storybook/react": "^3.3.11",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "source-map-loader": "^0.2.3",
+    "uglifyjs-webpack-plugin": "^1.1.8"
   }
 }
