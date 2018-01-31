@@ -1,0 +1,27 @@
+{
+  "name": "@edx/header",
+  "version": "0.0.1",
+  "description": "Universal header for edX applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "jaebradley, mjloturco, arizzitano",
+  "license": "MIT",
+  "dependencies": {
+    "@edx/edx-bootstrap": "^0.4.3",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "@storybook/react": "^3.3.11",
+    "@storybook/addon-actions": "^3.3.11",
+    "@storybook/addon-links": "^3.3.11",
+    "@storybook/addons": "^3.3.11"
+  }
+}
