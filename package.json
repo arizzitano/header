@@ -1,5 +1,5 @@
 {
-  "name": "@edx/header",
+  "name": "@arizzitano/header",
   "version": "0.0.1",
   "description": "Universal header for edX applications.",
   "main": "dist/index.js",
